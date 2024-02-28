@@ -23,22 +23,22 @@ mvn compile
 docker pull juansanxz/dockerprimer:latest
 ```  
 En docker, en la sección de imágenes, se observa la que se descargó recientemente:  
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)
 4. Posteriormente, use el siguiente comando para crear un contenedor que tendrá la imagen traída anteriormente:
 ```
 docker run -d -p 34000:46000 --name dockerfuncionesapp juansanxz/dockerprimer
 ```  
 En la siguiente imagen, se evidencia en docker, en la sección de contenedores, que fue creado exitosamente:  
-![img.png](img.png)    
+![img.png](img/img.png)    
 5. Como se observó en la imagen anterior, el contenedor está corriendo, y podremos probar la aplicación web. Para ello, diríjase a un broswer (en este caso se hará con chrome) e ingrese a la siguiente URL `http://localhost:34000/functions.html`, donde verá lo siguiente:  
-![img_2.png](img_2.png)  
+![img_2.png](img/img_2.png)  
 6. Aquí podrá calcular el seno y coseno de cualquier ángulo (dado en radianes):
-![img_3.png](img_3.png)
+![img_3.png](img/img_3.png)
 7. Puede determinar si una palabra es o no un palíndromo:  
-![img_4.png](img_4.png)  
-![img_5.png](img_5.png)  
+![img_4.png](img/img_4.png)  
+![img_5.png](img/img_5.png)  
 8. Finalmente puede calcular la magnitud de un vector real de dos dimensiones:  
-![img_6.png](img_6.png)  
+![img_6.png](img/img_6.png)  
 
 ## Decisiones de diseño
 La arquitectura que se diseñó e implementó para este laboratorio está compuesta por una aplicación web que usa el micro-framework de Spark para atender solicitudes Http.
