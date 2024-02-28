@@ -10,7 +10,7 @@ A continuación, se construirá una aplicación web pequeña usando el micro-fra
 * Versión de Java: 8.
 
 ### Instalación y uso
-1. Abra la consola o la línea de comandos, y vaya a la carpeta raíz del proyecto _Lab05-AREP_. Una vez allí, ejecute el comando que se muestra a continuación, para traer la imagen que se usará para ejecutar la aplicación:  
+1. Abra la consola o la línea de comandos y ejecute el comando que se muestra a continuación, para traer la imagen que se usará para ejecutar la aplicación:  
 ```
 docker pull juansanxz/dockerprimer:latest
 ```  
