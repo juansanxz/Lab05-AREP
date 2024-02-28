@@ -38,8 +38,6 @@ public class SparkWebServer {
             return magnitude;
         });
 
-
-
     }
 
     private static int getPort() {
